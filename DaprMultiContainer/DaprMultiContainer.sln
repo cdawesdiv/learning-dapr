@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprFrontEnd", "DaprFrontEnd\DaprFrontEnd.csproj", "{81E2BC0F-4052-4472-9D60-031F0A0D8026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprBackend", "DaprBackend\DaprBackend.csproj", "{589598EB-D057-48F2-808B-38DAA47D5614}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0D3429A2-64A3-439B-8EBF-F4D9B477DE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E2BC0F-4052-4472-9D60-031F0A0D8026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E2BC0F-4052-4472-9D60-031F0A0D8026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E2BC0F-4052-4472-9D60-031F0A0D8026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E2BC0F-4052-4472-9D60-031F0A0D8026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589598EB-D057-48F2-808B-38DAA47D5614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589598EB-D057-48F2-808B-38DAA47D5614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589598EB-D057-48F2-808B-38DAA47D5614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589598EB-D057-48F2-808B-38DAA47D5614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3429A2-64A3-439B-8EBF-F4D9B477DE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3429A2-64A3-439B-8EBF-F4D9B477DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3429A2-64A3-439B-8EBF-F4D9B477DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3429A2-64A3-439B-8EBF-F4D9B477DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {926A40B7-9E56-4EB7-AAF5-922D24A5566B}
+	EndGlobalSection
+EndGlobal
